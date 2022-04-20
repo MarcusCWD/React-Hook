@@ -23,9 +23,9 @@ function App() {
           <li>
             <Link to="/contact">contact Us</Link>
           </li>
-          {/* <li>
+          <li>
             <Link to="/posts">Posts</Link>
-          </li> */}
+          </li>
         </ul>
       </nav>
       <Routes>
@@ -39,7 +39,7 @@ function App() {
 
         <Route path="/form-submitted" element={<SubmittedForm />} />
 
-        {/* <Route path="/posts/:post_id" element={<PostPage />} /> */}
+        <Route path="/posts/:post_id" element={<PostPage />} />
       </Routes>
     </Router>
   );
