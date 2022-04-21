@@ -4,7 +4,7 @@ import About from "./pages/About";
 import ContactUs from "./pages/ContactUs";
 import Home from "./pages/Home";
 import SubmittedForm from "./pages/SubmittedForm";
-// import PostPage from "./pages/PostPage";
+import PostPage from "./pages/PostPage";
 
 // import react router stuff
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
